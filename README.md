@@ -2,7 +2,7 @@
 A sample app to demonstrate firebase cloud messaging service
 
 
-
+Google Cloud Messaging (GCM) was a mobile notification service developed by Google that enables third-party application developers to send notification data or information from developer-run servers to applications that target the Google Android Operating System, as well as applications or extensions developed for the Google Chrome internet browser
 
 
 
