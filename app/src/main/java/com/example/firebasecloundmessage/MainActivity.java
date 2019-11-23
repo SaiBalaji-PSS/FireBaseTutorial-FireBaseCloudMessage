@@ -22,13 +22,14 @@ public class MainActivity extends AppCompatActivity implements OnCompleteListene
 
     @Override
     public void onComplete(@NonNull Task<InstanceIdResult> task) {
+	    String token;
         if(!task.isSuccessful())
         {
-            Log.d("OOPS!!","Unable to get the token");
+            Log.d("OOPS!","Unable to get the token check your configuration");
         }
         else
         {
-            String token=task.getResult().getToken();
+             token=task.getResult().getToken();
             Log.d("TOKEN","YOUR TOKEN IS::"+token);
         }
 
